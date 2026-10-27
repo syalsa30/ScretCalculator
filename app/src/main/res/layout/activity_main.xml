@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:background="#F3EEFA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SECRET CALCULATOR"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#5E35B1"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/angka1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan angka pertama"
+        android:inputType="numberDecimal|numberSigned"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/angka2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan angka kedua"
+        android:inputType="numberDecimal|numberSigned"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil: 0"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah (+)" />
+
+    <Button
+        android:id="@+id/kurang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kurang (-)" />
+
+    <Button
+        android:id="@+id/kali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kali (×)" />
+
+    <Button
+        android:id="@+id/bagi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bagi (÷)" />
+
+</LinearLayout>
